@@ -4,6 +4,7 @@ gemspec
 gem 'rake'
 gem 'jruby-openssl', :platforms => :jruby
 gem 'faraday', '~> 0.11.0'
+gem 'pry'
 
 group :development do
   gem 'guard-rspec'
