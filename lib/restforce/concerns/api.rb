@@ -1,5 +1,6 @@
 require 'uri'
 require 'restforce/concerns/verbs'
+require 'restforce/concerns/batch_api'
 
 module Restforce
   module Concerns
