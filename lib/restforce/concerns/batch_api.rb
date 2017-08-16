@@ -2,7 +2,7 @@ require 'restforce/concerns/verbs'
 
 module Restforce
   module Concerns
-    module CompositeAPI
+    module BatchAPI
       extend Restforce::Concerns::Verbs
 
       define_verbs :post
